@@ -2,9 +2,11 @@
   "use strict";
 
   var languageStorageKey = "edkimnjoroge-language";
+  var themeStorageKey = "edkimnjoroge-theme";
   var fallbackLanguage = "en";
   var currentLanguage = fallbackLanguage;
   var currentPortfolioMode = "software";
+  var currentTheme = "dark";
   var currentMediaItems = [];
   var currentMediaIndex = 0;
 
@@ -17,6 +19,25 @@
 
   function setStoredLanguage(language) {
     window.localStorage.setItem(languageStorageKey, language);
+  }
+
+  function getPreferredTheme() {
+    var stored = window.localStorage.getItem(themeStorageKey);
+    return stored === "light" ? "light" : "dark";
+  }
+
+  function setStoredTheme(theme) {
+    window.localStorage.setItem(themeStorageKey, theme === "light" ? "light" : "dark");
+  }
+
+  function applyTheme(theme) {
+    currentTheme = theme === "light" ? "light" : "dark";
+    document.body.classList.toggle("light", currentTheme === "light");
+    document.body.setAttribute("data-theme", currentTheme);
+  }
+
+  function getNavControlsContainer() {
+    return document.getElementById("site-nav-controls");
   }
 
   function escapeHtml(value) {
@@ -96,8 +117,8 @@
   /* ---------- LANGUAGE SWITCHER ---------- */
 
   function renderLanguageSwitcher(lang) {
-    var nav = document.getElementById("nav");
-    if (!nav) return;
+    var controls = getNavControlsContainer();
+    if (!controls) return;
 
     var switcher = document.getElementById("site-language-switcher");
     if (!switcher) {
@@ -107,7 +128,7 @@
       switcher.innerHTML =
         '<button class="lang-btn" data-lang="en" type="button">EN</button>' +
         '<button class="lang-btn" data-lang="de" type="button">DE</button>';
-      nav.insertBefore(switcher, nav.firstChild);
+      controls.appendChild(switcher);
 
       var buttons = switcher.querySelectorAll(".lang-btn");
       for (var i = 0; i < buttons.length; i++) {
@@ -127,6 +148,43 @@
       } else {
         allBtns[j].classList.remove("active");
       }
+    }
+  }
+
+  function renderThemeSwitcher(theme) {
+    var controls = getNavControlsContainer();
+    if (!controls) return;
+
+    var switcher = document.getElementById("site-theme-switcher");
+    if (!switcher) {
+      switcher = document.createElement("div");
+      switcher.id = "site-theme-switcher";
+      switcher.className = "site-theme-switcher";
+      switcher.setAttribute("role", "group");
+      switcher.setAttribute("aria-label", "Theme switcher");
+      switcher.innerHTML =
+        '<button class="theme-btn" data-theme="dark" type="button" aria-label="Use dark theme">Dark</button>' +
+        '<button class="theme-btn" data-theme="light" type="button" aria-label="Use light theme">Light</button>';
+      controls.appendChild(switcher);
+
+      var buttons = switcher.querySelectorAll(".theme-btn");
+      for (var i = 0; i < buttons.length; i++) {
+        (function (btn) {
+          btn.addEventListener("click", function () {
+            var nextTheme = btn.getAttribute("data-theme") === "light" ? "light" : "dark";
+            setStoredTheme(nextTheme);
+            applyTheme(nextTheme);
+            renderThemeSwitcher(nextTheme);
+          });
+        })(buttons[i]);
+      }
+    }
+
+    var allBtns = switcher.querySelectorAll(".theme-btn");
+    for (var j = 0; j < allBtns.length; j++) {
+      var isActive = allBtns[j].getAttribute("data-theme") === theme;
+      allBtns[j].classList.toggle("active", isActive);
+      allBtns[j].setAttribute("aria-pressed", isActive ? "true" : "false");
     }
   }
 
@@ -771,6 +829,7 @@
   function renderPage(lang) {
     currentLanguage = lang || fallbackLanguage;
     renderLanguageSwitcher(lang);
+    renderThemeSwitcher(currentTheme);
     translatePage(lang);
     renderBiography(lang);
     renderExperience(lang);
@@ -787,6 +846,7 @@
   // We use a short setTimeout to guarantee init.js's $(document).ready() has completed.
   $(document).ready(function () {
     setTimeout(function () {
+      applyTheme(getPreferredTheme());
       renderPage(getPreferredLanguage());
     }, 100);
   });
@@ -794,4 +854,5 @@
   window.renderAppPage = renderPage;
   window.getPreferredLanguage = getPreferredLanguage;
   window.setPortfolioMode = setPortfolioMode;
+  window.getPreferredTheme = getPreferredTheme;
 })();

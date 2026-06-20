@@ -111,7 +111,7 @@
     "T-bars-2.jpg",
     "T-bars-3.jpg",
   ].map(function (name) {
-    return image("2020/01/" + name, "Doshi product render - " + name.replace(/\.[^.]+$/, "").replace(/-/g, " "), "Original Doshi catalogue render from the WordPress gallery.");
+    return image("2020/01/" + name, "Doshi product render - " + name.replace(/\.[^.]+$/, "").replace(/-/g, " "), "Catalogue render prepared for Doshi product presentation.");
   });
 
   window.portfolioData = {
@@ -151,7 +151,7 @@
           en: [
             "I led the product architecture and development work behind MarketpulseOS at Qodesystems LTD. The platform is a scalable, modular SaaS system based on a customized Perfex CRM foundation and supports several operational products.",
             "The work covered the full lifecycle: application development, client onboarding, deployment, SSL and DNS configuration, database administration, maintenance, and support for companies using the platform in day-to-day operations.",
-            "This is the strongest software-first case study in the archive because it combines product engineering, production responsibility, and business workflow ownership."
+            "This is the strongest software-focused case study here because it combines product engineering, production responsibility, and business workflow ownership."
           ],
         },
         role: { en: "Product architecture, full-stack development, deployment, infrastructure, database administration, and support." },
@@ -164,10 +164,10 @@
           { label: { en: "CRM access" }, url: "https://crm.wideoptions.co.ke" },
         ],
         gallery: [
-          image("2025/10/Screenshot_21-10-2025_185219_marketpulseos.com_.jpeg", "MarketpulseOS public product screen", "Original WordPress preview image for the MarketpulseOS entry."),
-          image("2025/10/Screenshot_21-10-2025_195633_demo.marketpulseos.com_.jpeg", "MarketpulseOS demo screen", "Demo environment screenshot from the archived slideshow."),
-          image("2025/10/Screenshot_21-10-2025_195524_demo.marketpulseos.com_.jpeg", "MarketpulseOS module screen", "Operational module view from the WordPress slideshow."),
-          image("2025/10/Screenshot_21-10-2025_195432_demo.marketpulseos.com_.jpeg", "MarketpulseOS dashboard screen", "Additional dashboard view from the old project page."),
+          image("2025/10/Screenshot_21-10-2025_185219_marketpulseos.com_.jpeg", "MarketpulseOS public product screen", "Public-facing screen from the MarketpulseOS product site."),
+          image("2025/10/Screenshot_21-10-2025_195633_demo.marketpulseos.com_.jpeg", "MarketpulseOS demo screen", "Demo environment screen showing the working product."),
+          image("2025/10/Screenshot_21-10-2025_195524_demo.marketpulseos.com_.jpeg", "MarketpulseOS module screen", "Operational module screen from the platform workflow."),
+          image("2025/10/Screenshot_21-10-2025_195432_demo.marketpulseos.com_.jpeg", "MarketpulseOS dashboard screen", "Dashboard view of the live platform."),
         ],
         relatedItems: ["wideoptions-erp-hrm-crm", "wideoptions-melamine-website"],
       },
@@ -195,18 +195,18 @@
           { label: { en: "Brand guide PDF" }, url: archive + "2025/06/WIDE-OPTIONS-BRANDGUIDE.pdf" },
         ],
         gallery: [
-          image("2025/06/Screenshot-2025-06-24-014136.jpg", "WideOptions ERP WordPress preview", "Original WordPress preview thumbnail."),
+          image("2025/06/Screenshot-2025-06-24-014136.jpg", "WideOptions ERP overview screen", "Overview screen introducing the ERP platform."),
           image("2025/06/Screenshot_24-6-2025_14656_erp.wideoptions.co_.ke_.jpeg", "WideOptions ERP module screenshot", "Archived ERP system screenshot."),
           image("2025/06/Screenshot_24-6-2025_14641_erp.wideoptions.co_.ke_.jpeg", "WideOptions ERP dashboard screenshot", "Archived dashboard view."),
-          image("2025/06/Screenshot_24-6-2025_14629_erp.wideoptions.co_.ke_.jpeg", "WideOptions ERP workflow screenshot", "Workflow screen from the original media set."),
+          image("2025/06/Screenshot_24-6-2025_14629_erp.wideoptions.co_.ke_.jpeg", "WideOptions ERP workflow screenshot", "Workflow screen from the ERP platform."),
           image("2025/06/Screenshot_24-6-2025_14616_erp.wideoptions.co_.ke_.jpeg", "WideOptions ERP management screenshot", "Management module screenshot."),
           image("2025/06/Screenshot_24-6-2025_1461_erp.wideoptions.co_.ke_.jpeg", "WideOptions ERP records screenshot", "Business records view."),
-          image("2025/06/Screenshot_24-6-2025_14546_erp.wideoptions.co_.ke_.jpeg", "WideOptions ERP operations screenshot", "Additional archived system screen."),
+          image("2025/06/Screenshot_24-6-2025_14546_erp.wideoptions.co_.ke_.jpeg", "WideOptions ERP operations screenshot", "Additional operations screen from the live platform."),
           image("2025/06/Screenshot_24-6-2025_14519_erp.wideoptions.co_.ke_.jpeg", "WideOptions ERP list screenshot", "List and record management screen."),
           image("2025/06/Screenshot_24-6-2025_1454_erp.wideoptions.co_.ke_.jpeg", "WideOptions ERP settings screenshot", "Additional ERP interface detail."),
-          image("2025/06/Screenshot_24-6-2025_14446_erp.wideoptions.co_.ke_.jpeg", "WideOptions ERP secondary screenshot", "Secondary module screen from the archive."),
-          image("2025/06/Screenshot_24-6-2025_14426_erp.wideoptions.co_.ke_.jpeg", "WideOptions ERP final archive screenshot", "Final screen from the archived ERP set."),
-          file("2025/06/WIDE-OPTIONS-BRANDGUIDE.pdf", "WideOptions brand guide", "Downloadable brand guide from the WordPress media library."),
+          image("2025/06/Screenshot_24-6-2025_14446_erp.wideoptions.co_.ke_.jpeg", "WideOptions ERP secondary screenshot", "Secondary module view from the ERP platform."),
+          image("2025/06/Screenshot_24-6-2025_14426_erp.wideoptions.co_.ke_.jpeg", "WideOptions ERP records screen", "Records screen from the ERP workflow."),
+          file("2025/06/WIDE-OPTIONS-BRANDGUIDE.pdf", "WideOptions brand guide", "Downloadable brand guide prepared for client-facing use."),
         ],
         relatedItems: ["marketpulse-os-saas-product-architecture-and-operations", "wideoptions-melamine-website"],
       },
@@ -231,9 +231,9 @@
         outcome: { en: "Delivered a clearer public web presence for the WideOptions Melamine brand." },
         links: [{ label: { en: "Visit website" }, url: "https://wideoptions.co.ke/" }],
         gallery: [
-          image("2025/06/Screenshot-2025-06-24-011542.jpg", "WideOptions Melamine website preview", "Original WordPress preview thumbnail."),
-          image("2025/06/Wideoption-Background-01-scaled.jpg", "WideOptions background artwork", "Background image from the WordPress project media."),
-          image("2025/06/Wideoption-Background-01-scaled.png", "WideOptions transparent brand artwork", "Supporting PNG artwork from the archive."),
+          image("2025/06/Screenshot-2025-06-24-011542.jpg", "WideOptions Melamine homepage screenshot", "Homepage view of the public business website."),
+          image("2025/06/Wideoption-Background-01-scaled.jpg", "WideOptions background artwork", "Background artwork used in the site visual system."),
+          image("2025/06/Wideoption-Background-01-scaled.png", "WideOptions transparent brand artwork", "Transparent brand artwork used across the project visuals."),
         ],
         relatedItems: ["wideoptions-erp-hrm-crm", "kritiplacejoint"],
       },
@@ -262,9 +262,9 @@
           { label: { en: "iOS app" }, url: "https://apps.apple.com/us/app/lockdownice/id6447322560" },
         ],
         gallery: [
-          image("2025/06/slider2.jpg", "Lockdown Ice WordPress preview", "Original portfolio preview image."),
+          image("2025/06/slider2.jpg", "Lockdown Ice homepage screenshot", "Homepage view of the Lockdown Ice online shop."),
           image("2025/06/Screenshot_24-6-2025_2029_lockdownice.com_-scaled.jpeg", "Lockdown Ice website screenshot", "Archived screenshot from the online shop."),
-          image("2023/06/slider1.jpg", "Lockdown Ice storefront banner", "Earlier storefront banner from the WordPress uploads archive."),
+          image("2023/06/slider1.jpg", "Lockdown Ice storefront banner", "Storefront banner used in the Lockdown Ice website."),
         ],
         relatedItems: ["kritiplacejoint", "wideoptions-melamine-website"],
       },
@@ -281,7 +281,7 @@
           en: [
             "I developed Kritiplacejoint, a custom WordPress website for a boutique bakery specializing in premium cakes and baked goods.",
             "The site included an intuitive cost calculator that lets customers estimate prices for custom cakes using guest count, layers, occasion, flavor, and optional toppers. That interactive pricing tool made the website more useful than a static brochure.",
-            "The project shows the SME website side of the archive: practical WordPress delivery, a clean customer journey, and a feature that directly supports enquiries and sales."
+            "The project shows the SME website side of my work: practical WordPress delivery, a clean customer journey, and a feature that directly supports enquiries and sales."
           ],
         },
         role: { en: "WordPress development, calculator implementation, responsive front-end support, and client delivery." },
@@ -289,11 +289,11 @@
         outcome: { en: "Delivered a polished business website with an interactive pricing experience for bakery customers." },
         links: [
           { label: { en: "Live website" }, url: "https://kritiplacejoint.com/" },
-          { label: { en: "Archived WordPress page" }, url: "https://edkimfx.com/portfolio-archive/kritiplacejoint/" },
+          { label: { en: "Project archive" }, url: "https://edkimfx.com/portfolio-archive/kritiplacejoint/" },
         ],
         gallery: [
-          image("2020/01/Screenshot-2025-06-24-004309.jpg", "Kritiplacejoint website screenshot", "Original WordPress featured preview."),
-          image("2020/01/frederick-medina-J8uTXtVbEbw-unsplash-scaled-1.jpg", "Kritiplacejoint bakery background", "Background image used by the archived project page."),
+          image("2020/01/Screenshot-2025-06-24-004309.jpg", "Kritiplacejoint website screenshot", "Homepage screenshot of the bakery website."),
+          image("2020/01/frederick-medina-J8uTXtVbEbw-unsplash-scaled-1.jpg", "Kritiplacejoint bakery background", "Supporting bakery background image used in the site design."),
         ],
         relatedItems: ["wideoptions-melamine-website", "lockdown-ice-online-shop"],
       },
@@ -309,18 +309,18 @@
         summary: { en: "A compilation of 3D and motion graphics work across hobby and client projects including ETG Fertilizers, Maudhui House, Mojitos Lounge, Newborn Entertainment, and Light Bulb Entertainment." },
         fullDescription: {
           en: [
-            "The demo reel is the fastest visual overview of the older creative archive. It pulls together 3D, motion graphics, campaign work, and selected personal experiments.",
+            "The demo reel is the fastest visual overview of the broader creative work. It pulls together 3D, motion graphics, campaign work, and selected personal experiments.",
             "It belongs in the portfolio as a creative review path for studios, agencies, and TVC-related opportunities where a single visual reel communicates range faster than separate case studies."
           ],
         },
         role: { en: "Selection, editing, motion presentation, and visual curation." },
         stackOrTools: { en: "3D, motion graphics, editing, compositing, reel assembly" },
-        outcome: { en: "Created a compact creative reel that summarizes the broader motion and 3D archive." },
+        outcome: { en: "Created a compact reel that summarizes a broader range of motion and 3D work." },
         links: [{ label: { en: "Watch on YouTube" }, url: "https://www.youtube.com/watch?v=KG_wsk5jjYQ" }],
         gallery: [
-          embed("https://www.youtube.com/watch?v=KG_wsk5jjYQ", "2020/01/Screenshot-2024-06-10-014248-e1749761686309.jpg", "Demo Reel on YouTube", "External YouTube version from the WordPress video field."),
-          video("2020/01/edkim-demo-reel.mp4", "2020/01/Screenshot-2024-06-10-014248-e1749761686309.jpg", "Uploaded demo reel video", "MP4 file from the WordPress media library."),
-          video("2020/01/Bat-woman.mp4", "", "Bat-woman motion clip", "Additional video asset attached to the original reel entry."),
+          embed("https://www.youtube.com/watch?v=KG_wsk5jjYQ", "2020/01/Screenshot-2024-06-10-014248-e1749761686309.jpg", "Demo Reel on YouTube", "External YouTube release of the demo reel."),
+          video("2020/01/edkim-demo-reel.mp4", "2020/01/Screenshot-2024-06-10-014248-e1749761686309.jpg", "Demo reel MP4 export", "MP4 export of the full demo reel."),
+          video("2020/01/Bat-woman.mp4", "", "Bat-woman motion clip", "Additional motion clip included with the reel assets."),
         ],
         relatedItems: ["etg-fertilizer-tvc", "business-partners-limited-video"],
       },
@@ -337,7 +337,7 @@
           en: [
             "I created 3D models of various metal products produced by Doshi Group and rendered them for use across advertisements, product catalogues, booklets, and the website.",
             "The work involved Cinema 4D modelling and Redshift rendering, with a focus on clean hard-surface presentation, material finish, and catalogue-ready consistency.",
-            "This is one of the largest restored galleries in the portfolio and now uses the original WordPress image set instead of just a few representative stills."
+            "This gallery uses a broad image set so the case study shows the range of the catalogue work rather than only a few stills."
           ],
         },
         role: { en: "3D modelling, product rendering, material setup, and catalogue visual production." },
@@ -364,21 +364,21 @@
           en: [
             "This project was modelled in Cinema 4D and rendered with Redshift as a pre-visualization study.",
             "Unlike the more cinematic 3D pieces, the emphasis here was practical: proportion, frame structure, object clarity, and a model that could guide the later physical build.",
-            "The restored modal includes both preview and render images from the old slideshow."
+            "The modal includes both preview studies and final renders so the project reads from concept to presentation."
           ],
         },
         role: { en: "Hard-surface modelling, technical form development, and render presentation." },
         stackOrTools: { en: "Cinema 4D, Redshift Renderer, technical modelling, pre-visualization" },
         outcome: { en: "Created a visualization model that informed the physical solar panel holder frame." },
         gallery: [
-          image("2025/06/preview1.jpg", "Solar holder preview 1", "Original WordPress slideshow image."),
-          image("2025/06/preview2.jpg", "Solar holder preview 2", "Original WordPress slideshow image."),
-          image("2025/06/preview3.jpg", "Solar holder preview 3", "Original WordPress slideshow image."),
-          image("2025/06/preview4.jpg", "Solar holder preview 4", "Original WordPress slideshow image."),
-          image("2025/06/render1.jpg", "Solar holder render 1", "Rendered view from the archive."),
-          image("2025/06/render2.jpg", "Solar holder render 2", "Featured WordPress preview render."),
-          image("2025/06/render3.jpg", "Solar holder render 3", "Additional render from the old gallery."),
-          image("2025/06/render4.jpg", "Solar holder render 4", "Additional render from the old gallery."),
+          image("2025/06/preview1.jpg", "Solar holder preview 1", "Preview study of the solar holder model."),
+          image("2025/06/preview2.jpg", "Solar holder preview 2", "Preview study of the solar holder model."),
+          image("2025/06/preview3.jpg", "Solar holder preview 3", "Preview study of the solar holder model."),
+          image("2025/06/preview4.jpg", "Solar holder preview 4", "Preview study of the solar holder model."),
+          image("2025/06/render1.jpg", "Solar holder render 1", "Rendered view of the solar holder model."),
+          image("2025/06/render2.jpg", "Solar holder render 2", "Lead render of the solar holder model."),
+          image("2025/06/render3.jpg", "Solar holder render 3", "Additional rendered angle of the solar holder model."),
+          image("2025/06/render4.jpg", "Solar holder render 4", "Additional rendered angle of the solar holder model."),
         ],
         relatedItems: ["doshi", "maya-3d-concept-house"],
       },
@@ -406,9 +406,9 @@
           { label: { en: "Watch on YouTube" }, url: "https://www.youtube.com/watch?v=O-riWJwVS4M" },
         ],
         gallery: [
-          embed("https://www.youtube.com/watch?v=O-riWJwVS4M", "2025/06/vlcsnap-2025-06-24-02h35m03s342.png", "Business Partners video on YouTube", "External YouTube version from the archived project."),
-          video("2025/06/BPL-Logo-Intro-Outro.mp4", "2025/06/vlcsnap-2025-06-24-02h35m03s342.png", "Business Partners uploaded MP4", "Uploaded video asset from WordPress."),
-          image("2025/06/vlcsnap-2025-06-24-02h35m03s342.png", "Business Partners video frame", "Original WordPress preview frame."),
+          embed("https://www.youtube.com/watch?v=O-riWJwVS4M", "2025/06/vlcsnap-2025-06-24-02h35m03s342.png", "Business Partners video on YouTube", "External YouTube version of the final advertisement."),
+          video("2025/06/BPL-Logo-Intro-Outro.mp4", "2025/06/vlcsnap-2025-06-24-02h35m03s342.png", "Business Partners MP4 export", "MP4 export of the final advertisement."),
+          image("2025/06/vlcsnap-2025-06-24-02h35m03s342.png", "Business Partners video frame", "Video frame from the final advertisement."),
         ],
         relatedItems: ["demo-reel", "etg-fertilizer-tvc"],
       },
@@ -424,7 +424,7 @@
         fullDescription: {
           en: [
             "This freelance project involved creating 3D models from client concept images, then texturing and rendering the final assets in Maya.",
-            "The restored gallery includes the original concept images and multiple model-preview screenshots from the WordPress project page.",
+            "The gallery includes the concept images alongside modelling, material, and render views from the project.",
             "It works as a compact example of translating reference art into production-ready 3D presentation."
           ],
         },
@@ -433,17 +433,17 @@
         outcome: { en: "Produced a 3D model set and downloadable project files from concept art." },
         links: [{ label: { en: "Project files" }, url: archive + "2025/06/Assignment_ooblet.zip" }],
         gallery: [
-          image("2025/06/Screenshot-2023-08-29-031302.jpg", "Ooblet render screenshot", "Original WordPress gallery image."),
-          image("2025/06/Screenshot-2023-08-29-031207.jpg", "Ooblet render angle", "Original WordPress gallery image."),
-          image("2025/06/Screenshot-2023-08-29-031116.jpg", "Ooblet material preview", "Original WordPress gallery image."),
-          image("2025/06/Screenshot-2023-08-29-031009.jpg", "Ooblet model view", "Original WordPress gallery image."),
-          image("2025/06/Screenshot-2023-08-29-025724.jpg", "Ooblet textured model", "Original WordPress gallery image."),
-          image("2025/06/Screenshot-2023-08-28-054619.jpg", "Ooblet scene preview", "Original WordPress gallery image."),
-          image("2025/06/Screenshot-2023-08-28-033245.jpg", "Ooblet featured preview", "Original WordPress thumbnail."),
-          image("2025/06/Screenshot-2023-08-28-032631.jpg", "Ooblet viewport preview", "Original WordPress gallery image."),
-          image("2025/06/ooblet_concept_rotated.png", "Ooblet rotated concept art", "Client concept reference from the archive."),
-          image("2025/06/ooblet_concept.jpg", "Ooblet concept art", "Client concept reference from the archive."),
-          file("2025/06/Assignment_ooblet.zip", "Ooblet project files", "Downloadable project archive from WordPress."),
+          image("2025/06/Screenshot-2023-08-29-031302.jpg", "Ooblet render screenshot", "Project image showing a modelling, material, or render view."),
+          image("2025/06/Screenshot-2023-08-29-031207.jpg", "Ooblet render angle", "Project image showing a modelling, material, or render view."),
+          image("2025/06/Screenshot-2023-08-29-031116.jpg", "Ooblet material preview", "Project image showing a modelling, material, or render view."),
+          image("2025/06/Screenshot-2023-08-29-031009.jpg", "Ooblet model view", "Project image showing a modelling, material, or render view."),
+          image("2025/06/Screenshot-2023-08-29-025724.jpg", "Ooblet textured model", "Project image showing a modelling, material, or render view."),
+          image("2025/06/Screenshot-2023-08-28-054619.jpg", "Ooblet scene preview", "Project image showing a modelling, material, or render view."),
+          image("2025/06/Screenshot-2023-08-28-033245.jpg", "Ooblet featured render", "Lead image used for the project presentation."),
+          image("2025/06/Screenshot-2023-08-28-032631.jpg", "Ooblet viewport preview", "Project image showing a modelling, material, or render view."),
+          image("2025/06/ooblet_concept_rotated.png", "Ooblet rotated concept art", "Client concept reference used for the model."),
+          image("2025/06/ooblet_concept.jpg", "Ooblet concept art", "Client concept reference used for the model."),
+          file("2025/06/Assignment_ooblet.zip", "Ooblet project files", "Downloadable project files for this case study."),
         ],
         relatedItems: ["maya-3d-concept-house", "game-development"],
       },
@@ -455,27 +455,27 @@
         coverImage: archive + "2025/06/Render2-1.jpg",
         title: { en: "Maya 3D Concept House" },
         kicker: { en: "Concept environment modelling" },
-        summary: { en: "A Maya 3D concept-house model, textured and rendered from concept images, with original project files preserved." },
+        summary: { en: "A Maya 3D concept-house model, textured and rendered from concept images, with project files preserved." },
         fullDescription: {
           en: [
             "I created a 3D model of a concept house from reference imagery, then textured and rendered the scene in Maya.",
             "The project combines reference interpretation, environmental modelling, material setup, and final render presentation.",
-            "The modal restores the original screenshots, renders, concept reference, and downloadable project archive."
+            "The modal brings together screenshots, final renders, concept reference, and the downloadable project files."
           ],
         },
         role: { en: "3D modelling, texturing, environment rendering, and reference translation." },
         stackOrTools: { en: "Maya 3D, rendering workflow, concept references" },
-        outcome: { en: "Delivered a modelled and rendered concept-house scene with project files archived." },
+        outcome: { en: "Delivered a modelled and rendered concept-house scene with supporting project files." },
         links: [{ label: { en: "Project files" }, url: archive + "2025/06/House-Concept.zip" }],
         gallery: [
-          image("2025/06/Screenshot-2023-07-28-025756.jpg", "Concept house viewport screenshot", "Original WordPress gallery screenshot."),
-          image("2025/06/Screenshot-2023-07-28-025846.jpg", "Concept house modelling screenshot", "Original WordPress gallery screenshot."),
-          image("2025/06/Screenshot-2023-07-28-025907.jpg", "Concept house viewport detail", "Original WordPress gallery screenshot."),
-          image("2025/06/Render1-1.jpg", "Concept house render 1", "Rendered view from the original gallery."),
-          image("2025/06/Render2-1.jpg", "Concept house render 2", "Featured WordPress preview render."),
-          image("2025/06/Render3-1.jpg", "Concept house render 3", "Rendered view from the original gallery."),
+          image("2025/06/Screenshot-2023-07-28-025756.jpg", "Concept house viewport screenshot", "Viewport screenshot from the modelling process."),
+          image("2025/06/Screenshot-2023-07-28-025846.jpg", "Concept house modelling screenshot", "Viewport screenshot from the modelling process."),
+          image("2025/06/Screenshot-2023-07-28-025907.jpg", "Concept house viewport detail", "Viewport screenshot from the modelling process."),
+          image("2025/06/Render1-1.jpg", "Concept house render 1", "Rendered view of the concept house study."),
+          image("2025/06/Render2-1.jpg", "Concept house render 2", "Lead render of the concept house study."),
+          image("2025/06/Render3-1.jpg", "Concept house render 3", "Additional rendered view of the concept house study."),
           image("2025/06/jesse-riggle-home.jpg", "Concept house reference image", "Reference image stored with the project."),
-          file("2025/06/House-Concept.zip", "House concept project files", "Downloadable project archive from WordPress."),
+          file("2025/06/House-Concept.zip", "House concept project files", "Downloadable project files for this case study."),
         ],
         relatedItems: ["ooblet", "solar-panel-holder-model"],
       },
@@ -491,18 +491,18 @@
         summary: { en: "A work-in-progress hobby game project created while learning game engines and Unreal Engine workflows." },
         fullDescription: {
           en: [
-            "This archive item represents a work-in-progress game project developed as a hobby while learning newer game-engine workflows.",
+            "This item represents a work-in-progress game project developed while learning newer game-engine workflows.",
             "It is intentionally presented as exploratory work: useful for showing realtime interest and technical curiosity, without overstating it as a shipped game."
           ],
         },
         role: { en: "Realtime experimentation, game-engine learning, and prototype development." },
         stackOrTools: { en: "Unreal Engine, realtime prototyping, 3D assets" },
-        outcome: { en: "Preserved the interactive and realtime side of the creative archive." },
+        outcome: { en: "Preserved an example of my interactive and realtime experimentation." },
         links: [{ label: { en: "Vimeo preview" }, url: "https://vimeo.com/555761268" }],
         gallery: [
-          embed("https://vimeo.com/555761268", "2025/06/Screenshot-2025-06-24-035511.jpg", "Game development Vimeo preview", "External Vimeo preview from the WordPress video field."),
+          embed("https://vimeo.com/555761268", "2025/06/Screenshot-2025-06-24-035511.jpg", "Game development Vimeo preview", "External Vimeo preview of the prototype gameplay."),
           image("2025/06/Screenshot-2025-06-24-035343.jpg", "Game development screenshot", "Archived project screenshot."),
-          image("2025/06/Screenshot-2025-06-24-035511.jpg", "Game development featured preview", "Original WordPress thumbnail."),
+          image("2025/06/Screenshot-2025-06-24-035511.jpg", "Game development cover frame", "Lead image used for the project presentation."),
         ],
         relatedItems: ["ooblet", "demo-reel"],
       },
@@ -519,7 +519,7 @@
         fullDescription: {
           en: [
             "I produced a TVC for ETG Fertilizer. The scene was modelled, textured, and rendered in Cinema 4D, with additional post-processing in After Effects.",
-            "This entry restores the WordPress video field, local uploaded MP4, and supporting campaign image so the modal feels closer to the original video-first preview."
+            "This entry brings together the final video, downloadable MP4, and supporting campaign image for a fuller project view."
           ],
         },
         role: { en: "Commercial visual development, 3D scene production, rendering, and post-processing." },
@@ -527,13 +527,13 @@
         outcome: { en: "Delivered a client-facing fertilizer TVC with 3D and motion production." },
         links: [
           { label: { en: "YouTube video" }, url: "https://youtu.be/H0Fyo5lf6jw" },
-          { label: { en: "Uploaded MP4" }, url: archive + "2025/06/etg-1.mp4" },
+          { label: { en: "MP4 download" }, url: archive + "2025/06/etg-1.mp4" },
         ],
         gallery: [
-          embed("https://youtu.be/H0Fyo5lf6jw", "2025/06/images.jpg", "ETG Fertilizer TVC on YouTube", "External YouTube version from the WordPress video field."),
-          video("2025/06/etg-1.mp4", "2025/06/etg-agri-inputs-zambia.webp", "ETG Fertilizer uploaded MP4", "Uploaded MP4 from the WordPress media library."),
-          image("2025/06/etg-agri-inputs-zambia.webp", "ETG Agri Inputs Zambia image", "Supporting campaign image from the media library."),
-          image("2025/06/images.jpg", "ETG WordPress preview", "Original WordPress thumbnail."),
+          embed("https://youtu.be/H0Fyo5lf6jw", "2025/06/images.jpg", "ETG Fertilizer TVC on YouTube", "External YouTube release of the final TVC."),
+          video("2025/06/etg-1.mp4", "2025/06/etg-agri-inputs-zambia.webp", "ETG Fertilizer MP4 export", "MP4 export of the final TVC."),
+          image("2025/06/etg-agri-inputs-zambia.webp", "ETG Agri Inputs Zambia image", "Supporting campaign image for the ETG Fertilizer project."),
+          image("2025/06/images.jpg", "ETG Fertilizer cover image", "Lead image used for the project presentation."),
         ],
         relatedItems: ["demo-reel", "business-partners-limited-video"],
       },

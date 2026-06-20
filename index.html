@@ -31,6 +31,18 @@
 </head>
 
 <body>
+<script>
+(function () {
+	try {
+		var theme = window.localStorage.getItem('edkimnjoroge-theme');
+		if (theme === 'light') {
+			document.body.classList.add('light');
+		} else if (theme === 'dark') {
+			document.body.classList.remove('light');
+		}
+	} catch (error) {}
+})();
+</script>
 
 
 <!-- Wrapper All -->
@@ -100,7 +112,7 @@
 							<div class="resumo_fn_main_title">
 								<h3 class="subtitle" data-i18n="about.eyebrow">About Me</h3>
 								<h3 class="title" data-i18n="about.title">Biography</h3>
-								<p class="desc" data-i18n="about.lead">I'm a Freelancer Front-end Developer with over 12 years of experience. I'm from San Francisco. I code and create web elements for amazing people around the world. I like work with new people. New people are new experiences.</p>
+								<p class="desc" data-i18n="about.lead">I am a full-stack developer with experience spanning product engineering, internal business systems, mobile delivery, and infrastructure support.</p>
 								<div id="about-paragraphs" style="margin-top: 15px;"></div>
 							</div>
 							<!-- /Main Title -->
@@ -272,7 +284,7 @@
 
 										<!-- Description -->
 										<div class="resumo_fn_desc">
-											<p>A freelance creative designer with a love for minimal design, clean typography and well-written code, located in San Francisco. Provide high quality and cost effective offshore web and software development services. Wide range of web and software development services across the world.</p>
+											<p>I work across software delivery, product implementation, and operational support, with additional experience in creative production and visual presentation.</p>
 										</div>
 
 									</div>
@@ -441,8 +453,8 @@
 				</div>
 				<div class="footer_content">
 					<div class="container">
-						<p><span data-i18n="site.footer.statement">Software-first portfolio with a dedicated secondary path for creative and TVC work.</span><br />
-						<span data-i18n="site.footer.copyright">Built as a fast static site for Cloudflare Pages.</span><br />
+						<p><span data-i18n="site.footer.statement">Software-first portfolio featuring full-stack systems, product delivery, and selected creative work.</span><br />
+						<span data-i18n="site.footer.copyright">A focused selection of software case studies, product work, and visual projects.</span><br />
 						&copy; 2026 Edwin Njoroge</p>
 					</div>
 				</div>
@@ -509,6 +521,7 @@
 			
 			<nav id="nav">
 				<h3 class="label">Menu</h3>
+				<div id="site-nav-controls" class="site-nav-controls"></div>
 				<ul>
 					<li><a href="#home" data-i18n="site.nav.home">Home</a></li>
 					<li><a href="#about" data-i18n="site.nav.about">About</a></li>
@@ -522,15 +535,8 @@
 			<div class="nav_footer">
 				<div class="social">
 					<ul>
-						<li><a href="#" target="_blank"><img src="svg/social/twitter.svg" alt="" class="fn__svg"></a></li>
-						<li><a href="#" target="_blank"><img src="svg/social/facebook.svg" alt="" class="fn__svg"></a></li>
-						<li><a href="#" target="_blank"><img src="svg/social/instagram.svg" alt="" class="fn__svg"></a></li>
-						<li><a href="#" target="_blank"><img src="svg/social/pinterest.svg" alt="" class="fn__svg"></a></li>
-						<li><a href="#" target="_blank"><img src="svg/social/behance.svg" alt="" class="fn__svg"></a></li>
+						<li><a href="https://www.linkedin.com/in/edkimnjoroge/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3Bn2iX%2FXzISM60jUJGxl2N6g%3D%3D" target="_blank" rel="noopener noreferrer"><img src="svg/social/linkedin.svg" alt="LinkedIn" class="fn__svg"></a></li>
 					</ul>
-				</div>
-				<div class="copyright">
-					<a href="https://frenify.com/" target="_blank">Developed by Frenify</a>
 				</div>
 			</div>
 			

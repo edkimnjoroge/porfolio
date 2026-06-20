@@ -14,8 +14,8 @@ window.siteContent = {
       },
       footer: {
         statement:
-          "Software-first portfolio with a dedicated secondary path for creative and TVC work.",
-        copyright: "Built as a fast static site for Cloudflare Pages.",
+          "Software-first portfolio featuring full-stack systems, product delivery, and selected creative work.",
+        copyright: "A focused selection of software case studies, product work, and visual projects.",
       },
       pageTitles: {
         home: "Full-Stack Developer",
@@ -278,8 +278,8 @@ window.siteContent = {
       },
       footer: {
         statement:
-          "Software-orientiertes Portfolio mit einem separaten zweiten Bereich fuer kreative und TVC-Arbeiten.",
-        copyright: "Als schnelle statische Website fuer Cloudflare Pages gebaut.",
+          "Software-orientiertes Portfolio mit Full-Stack-Systemen, Produktarbeit und ausgewaehlten kreativen Projekten.",
+        copyright: "Eine fokussierte Auswahl an Software-Fallstudien, Produktarbeit und visuellen Projekten.",
       },
       pageTitles: {
         home: "Full-Stack Developer",

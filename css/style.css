@@ -1209,6 +1209,7 @@ a:focus {
 }
 #portfolio .portfolio-carousel .modal_item{
 	cursor: pointer;
+	width: 320px;
 }
 #portfolio .portfolio-carousel .img_holder{
 	border-radius: 6px;
@@ -1281,8 +1282,19 @@ a:focus {
 	border-color: var(--mc);
 	color: var(--mc);
 }
-.site-language-switcher{
+.site-nav-controls{
 	padding: 10px 0 20px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 20px;
+}
+.site-language-switcher,
+.site-theme-switcher{
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
@@ -1290,7 +1302,8 @@ a:focus {
 	display: flex;
 	gap: 15px;
 }
-.site-language-switcher .lang-btn{
+.site-language-switcher .lang-btn,
+.site-theme-switcher .theme-btn{
 	background: none;
 	border: none;
 	border-bottom: 2px solid transparent;
@@ -1304,9 +1317,17 @@ a:focus {
 	transition: all .3s ease;
 }
 .site-language-switcher .lang-btn.active,
-.site-language-switcher .lang-btn:hover{
+.site-language-switcher .lang-btn:hover,
+.site-language-switcher .lang-btn:focus-visible,
+.site-theme-switcher .theme-btn.active,
+.site-theme-switcher .theme-btn:hover,
+.site-theme-switcher .theme-btn:focus-visible{
 	color: var(--mc);
 	border-bottom-color: var(--mc);
+}
+.site-language-switcher .lang-btn:focus-visible,
+.site-theme-switcher .theme-btn:focus-visible{
+	outline: none;
 }
 #portfolio .my__nav{
 	position: absolute;
@@ -2423,6 +2444,8 @@ body.light .resumo_fn_right .title_holder h5{color: #333;}
 body.light .resumo_fn_navigation{background-color: #fff;}
 body.light .resumo_fn_nav_overlay{background-color: #eee;}
 body.light #nav .label{color: #777;}
+body.light .site-language-switcher .lang-btn,
+body.light .site-theme-switcher .theme-btn{color: #666;}
 body.light #nav ul a{color: #333;}
 body.light #nav ul a:hover{color: var(--mc);}
 body.light .resumo_fn_navigation .social a{background-color: rgba(0,0,0,.05);color: #333;}
@@ -3190,6 +3213,11 @@ body.light .resumo_fn_modalbox .modal_content::-webkit-scrollbar-thumb{border-co
 	}
 	.resumo_fn_modalbox .portfolio_modal_meta_item:last-child{
 		border-bottom-color: transparent;
+	}
+}
+@media(max-width: 699px){
+	#portfolio .portfolio-carousel .modal_item{
+		width: auto;
 	}
 }
 @media(max-width: 370px){
