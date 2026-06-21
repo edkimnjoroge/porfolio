@@ -13,9 +13,8 @@ window.siteContent = {
         contact: "Contact",
       },
       footer: {
-        statement:
-          "Software-first portfolio featuring full-stack systems, product delivery, and selected creative work.",
-        copyright: "A focused selection of software case studies, product work, and visual projects.",
+        statement: "",
+        copyright: "",
       },
       pageTitles: {
         home: "Full-Stack Developer",
@@ -277,9 +276,8 @@ window.siteContent = {
         contact: "Kontakt",
       },
       footer: {
-        statement:
-          "Software-orientiertes Portfolio mit Full-Stack-Systemen, Produktarbeit und ausgewaehlten kreativen Projekten.",
-        copyright: "Eine fokussierte Auswahl an Software-Fallstudien, Produktarbeit und visuellen Projekten.",
+        statement: "",
+        copyright: "",
       },
       pageTitles: {
         home: "Full-Stack Developer",
