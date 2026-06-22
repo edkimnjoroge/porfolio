@@ -238,6 +238,28 @@
         relatedItems: ["wideoptions-erp-hrm-crm", "kritiplacejoint"],
       },
       {
+        slug: "barabara-alerts",
+        section: "projects",
+        categories: ["website-apps"],
+        year: "2026",
+        coverImage: "assets/images/barabara-alerts-cover.svg",
+        title: { en: "Barabara Alerts" },
+        kicker: { en: "Road-hazard reporting app with Laravel backend" },
+        summary: { en: "A mobile-first road-hazard reporting product delivered with Android and iOS apps, a Laravel backend, and a supporting NextJS frontend." },
+        fullDescription: {
+          en: [
+            "Barabara Alerts started as a road-safety concept with an existing basic HTML website, then expanded into a wider mobile, backend, and frontend product delivery engagement.",
+            "I built and published the mobile app for Android and iOS, while the Laravel backend handled reporting workflows, operational coordination, and the supporting API layer.",
+            "The engagement also included a NextJS web frontend to complete the broader platform and move the idea beyond a simple brochure site."
+          ],
+        },
+        role: { en: "Mobile product delivery, Laravel backend implementation, API workflow design, and supporting web-platform rollout." },
+        stackOrTools: { en: "Laravel, Android, iOS, NextJS, APIs, product delivery" },
+        outcome: { en: "Took an early concept into a working mobile product with a production-ready backend and supporting web platform." },
+        gallery: [],
+        relatedItems: ["marketpulse-os-saas-product-architecture-and-operations", "lockdown-ice-online-shop"],
+      },
+      {
         slug: "lockdown-ice-online-shop",
         section: "projects",
         categories: ["website-apps"],
