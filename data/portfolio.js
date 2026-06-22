@@ -256,6 +256,9 @@
         role: { en: "Mobile product delivery, Laravel backend implementation, API workflow design, and supporting web-platform rollout." },
         stackOrTools: { en: "Laravel, Android, iOS, NextJS, APIs, product delivery" },
         outcome: { en: "Took an early concept into a working mobile product with a production-ready backend and supporting web platform." },
+        links: [
+          { label: { en: "Google Play" }, url: "https://play.google.com/store/search?q=barabara%20alerts&c=apps" },
+        ],
         gallery: [],
         relatedItems: ["marketpulse-os-saas-product-architecture-and-operations", "lockdown-ice-online-shop"],
       },
