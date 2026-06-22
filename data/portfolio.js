@@ -342,7 +342,6 @@
         gallery: [
           embed("https://www.youtube.com/watch?v=KG_wsk5jjYQ", "2020/01/Screenshot-2024-06-10-014248-e1749761686309.jpg", "Demo Reel on YouTube", "External YouTube release of the demo reel."),
           video("2020/01/edkim-demo-reel.mp4", "2020/01/Screenshot-2024-06-10-014248-e1749761686309.jpg", "Demo reel MP4 export", "MP4 export of the full demo reel."),
-          video("2020/01/Bat-woman.mp4", "", "Bat-woman motion clip", "Additional motion clip included with the reel assets."),
         ],
         relatedItems: ["etg-fertilizer-tvc", "business-partners-limited-video"],
       },
